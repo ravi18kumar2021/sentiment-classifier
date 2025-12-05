@@ -1,7 +1,8 @@
 import streamlit as st
 import requests
 
-st.title("Sentiment Classifier")
+st.set_page_config(page_title="Review Classifier", page_icon="📝")
+st.title("Review Classifier")
 
 BASE_URL = st.secrets["BASE_URL"]
 
